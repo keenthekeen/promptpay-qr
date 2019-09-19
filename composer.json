@@ -1,0 +1,28 @@
+{
+  "name": "keenthekeen/promptpay-qr",
+  "type": "library",
+  "description": "Promptpay QR Helper in PHP",
+  "keywords": [
+    "thai",
+    "thailand",
+    "promptpay",
+    "emv qr"
+  ],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Siwat Techavoranant",
+      "homepage": "https://github.com/keenthekeen",
+      "role": "Developer"
+    }
+  ],
+  "require": {
+    "php": ">=7.1.0"
+  },
+  "autoload": {
+    "files": [
+      "VerifyQr.php",
+      "Helper.php"
+    ]
+  }
+}
