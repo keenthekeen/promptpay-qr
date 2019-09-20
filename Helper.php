@@ -1,4 +1,5 @@
 <?php
+
 namespace PromptpayQr;
 
 class Helper {
@@ -9,6 +10,7 @@ class Helper {
             $x ^= $x >> 4;
             $crc = (($crc << 8) ^ ($x << 12) ^ ($x << 5) ^ $x) & 0xFFFF;
         }
+        
         return strtoupper(dechex($crc));
     }
 }

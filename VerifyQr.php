@@ -79,5 +79,3 @@ class VerifyQr {
         return strlen($this->qrContent);
     }
 }
-
-print_r((new VerifyQr('00390006000001010300402180192470049055621985102TH9104282C'))->sending);
